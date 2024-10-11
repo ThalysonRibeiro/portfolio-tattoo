@@ -9,3 +9,51 @@
     ;
   }
 }
+
+@layer utilities {
+  .parallax-bg {
+    background-image: url('../assets/img/bg-header.png');
+    background-attachment: fixed;
+    /* Fixa o fundo para o efeito parallax */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* Defina a altura da seção com parallax */
+  }
+
+  .text-gradient {
+    background: linear-gradient(90deg, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .hover\:text-gradient:hover {
+    background: linear-gradient(90deg, #8400ff, #ff0044, #ffe100, #ff00e6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  /* Expansão do contêiner e do texto */
+  .btn-expand {
+    width: 60px;
+    /* Largura inicial do botão (apenas ícone) */
+  }
+
+  .btn-expand:hover {
+    width: 220px;
+    /* Largura expandida quando hover */
+  }
+
+  .btn-text {
+    opacity: 0;
+    /* Inicialmente o texto está invisível */
+    white-space: nowrap;
+  }
+
+  .btn-expand:hover .btn-text {
+    opacity: 1;
+    /* Texto visível ao passar o mouse */
+  }
+}
