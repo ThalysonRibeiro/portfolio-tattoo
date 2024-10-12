@@ -14,6 +14,12 @@
     rel="stylesheet">
   <!-- icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- carrocel animed -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 </head>
 
 <body">
@@ -26,8 +32,8 @@
         </svg>
       </button>
       <div id="menu" class="hidden md:flex space-x-8">
-        <a href="" class="text-white text-lg hover:text-blue-500">Inicio</a>
-        <a href="" class="text-white text-lg hover:text-blue-500">Artista</a>
+        <a href="#inicio" class="text-white text-lg hover:text-blue-500">Inicio</a>
+        <a href="#artista" class="text-white text-lg hover:text-blue-500">Artista</a>
         <a href="" class="text-white text-lg hover:text-blue-500">Serviços</a>
         <a href="" class="text-white text-lg hover:text-blue-500">Galeria</a>
         <a href="" class="text-white text-lg hover:text-blue-500">Contato</a>
@@ -37,16 +43,15 @@
   <!-- Menu Mobile -->
   <div id="mobile-menu" class="md:hidden hidden text-center fixed top-14 left-0 w-full bg-white shadow z-40">
     <div>
-      <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
-      <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
+      <a href="#inicio" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
+      <a href="#artista" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
       <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
       <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Galeria</a>
       <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Contato</a>
     </div>
   </div>
 
-  dadawd
-  <header class="w-full h-screen flex items-center justify-center">
+  <header id="inicio" class="w-full h-screen flex items-center justify-center">
     <div class="w-full h-[100vh] parallax-bg relative">
     </div>
 
@@ -102,12 +107,93 @@
     </div>
   </header>
 
-  <section class="w-full h-screen">
-    <div class="w-96 h-40 border-2 border-red-500">
-      <img src="../assets/img/bg-header.png" alt="backgrounde" class="w-full h-full object-cover">
+  <section id="artista" class="w-full min-h-screen flex items-center justify-center flex-col blue-1000">
 
+    <!-- <div class="w-full h-auto flex items-center justify-center flex-col mt-5"> -->
+
+    <div class="w-full flex items-center justify-center flex-col p-2 md:flex-row md:p-10 lg:p-20">
+      <div class="w-60 h-[350px] lg:w-1/2">
+        <img src="../assets/img/artista.png" alt="foto artista"
+          class="w-full h-full object-cover rounded-[18px] shadow-lg">
+      </div>
+      <p class="w-full text-white p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quo
+        nulla, quasi, dolorem commodi repellat itaque quia, aperiam voluptas ab unde sint nisi dignissimos porro vero
+        iste deserunt id eius! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quo nulla, quasi,
+        dolorem commodi repellat itaque quia, aperiam voluptas ab unde sint nisi dignissimos porro vero iste deserunt
+        id eius! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quo nulla, quasi, dolorem commodi
+        repellat itaque quia, aperiam voluptas ab unde sint nisi dignissimos porro vero iste deserunt id eius!</p>
     </div>
+
+    <div class="flex items-center flex-col md:flex-row-reverse">
+      <div class="w-full m-4 md:w-1/2">
+        <div class="swiper mySwiper w-48 h-48 md:w-56 md:h-64 lg:w-80 lg:h-80">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/1.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/2.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/3.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/4.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/5.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/6.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/7.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/8.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+            <div class="swiper-slide rounded-[18px] text-xl font-bold flex items-center justify-center">
+              <img src="../assets/carrocel/9.jpg" alt="imagem carrocel" class="w-full h-full object-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full flex items-center justify-center flex-wrap md:w-1/2">
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
+
+
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- <marquee direction="right" class="w-full h-10 text-white">
+      marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas
+      • tintas • marcas • tintas • marcas • tintas • marcas • tintas
+    </marquee>
+    <marquee direction="left" class="w-full h-10 text-white">
+      <span>dadawd</span>
+      marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas • tintas • marcas
+      • tintas • marcas • tintas • marcas • tintas • marcas • tintas
+    </marquee> -->
+
+
+
   </section>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cards",
+      grabCursor: true,
+    });
+  </script>
 
 
   <script src=" ../js/menu.js"></script>

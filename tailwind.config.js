@@ -9,8 +9,7 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
-    },
-    extend: {},              // Pronto para futuras customizações
+    }             // Pronto para futuras customizações
   },
   plugins: [],               // Adicione plugins aqui, se necessário
 }

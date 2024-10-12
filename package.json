@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "swiper": "^11.1.14"
   }
 }

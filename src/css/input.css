@@ -56,4 +56,8 @@
     opacity: 1;
     /* Texto visível ao passar o mouse */
   }
+
+  .blue-1000 {
+    background: #010313;
+  }
 }
