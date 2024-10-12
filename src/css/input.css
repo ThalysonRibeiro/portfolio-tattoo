@@ -21,11 +21,8 @@
     /* Defina a altura da seção com parallax */
   }
 
-  .text-gradient {
-    background: linear-gradient(90deg, #ffffff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  .bg-pro-gradient {
+    background: linear-gradient(45deg, #01020f, #01003d, #01020f);
   }
 
   .hover\:text-gradient:hover {
@@ -59,5 +56,9 @@
 
   .blue-1000 {
     background: #010313;
+  }
+
+  .blue-960 {
+    background: #121428;
   }
 }

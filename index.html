@@ -26,7 +26,7 @@
 <body">
   <nav class="bg-zinc-950 shadow fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class=""><img src="./src/assets/img/logo-1.png" alt="logo menu" class="w-16"></div>
+      <div class=""><a href="#inicio"><img src="./src/assets/img/logo-1.png" alt="logo menu" class="w-16"></a></div>
       <button id="menu-btn" class="text-white focus:outline-none md:hidden">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -35,7 +35,7 @@
       <div id="menu" class="hidden md:flex space-x-8">
         <a href="#inicio" class="text-white text-lg hover:text-blue-500">Inicio</a>
         <a href="#artista" class="text-white text-lg hover:text-blue-500">Artista</a>
-        <a href="" class="text-white text-lg hover:text-blue-500">Serviços</a>
+        <a href="#servicos" class="text-white text-lg hover:text-blue-500">Serviços</a>
         <a href="" class="text-white text-lg hover:text-blue-500">Galeria</a>
         <a href="" class="text-white text-lg hover:text-blue-500">Contato</a>
       </div>
@@ -46,7 +46,7 @@
     <div>
       <a href="#inicio" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
       <a href="#artista" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
-      <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
+      <a href="#servicos" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
       <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Galeria</a>
       <a href="" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Contato</a>
     </div>
@@ -159,19 +159,73 @@
       </div>
 
       <div class="w-full flex items-center justify-center flex-wrap md:w-1/2">
-        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
-        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
-        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
-        <div class="w-32 border-b-2 text-center m-3 border-white text-white">macas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">marcas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">marcas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">marcas de tinta</div>
+        <div class="w-32 border-b-2 text-center m-3 border-white text-white">marcas de tinta</div>
         <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
         <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
         <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
         <div class="w-32 border-b-2 text-center m-3 border-white text-white">equipamento</div>
+      </div>
 
+    </div>
+
+  </section>
+
+  <section id="servicos" class="w-full min-h-screen bg-zinc-950 flex items-center flex-col">
+    <h2 class="text-white font-bold mt-16 mb-6">O que fazemos</h2>
+    <div class="w-full h-auto flex items-center justify-center flex-col md:flex-row flex-wrap gap-4 md:justify-evenly">
+
+      <div class="w-64 h-[400px] mb-6 flex items-center flex-col blue-960">
+        <div class="w-full h-60">
+          <img src="src/assets/img/blackwork.png" alt="card blackwork" class="w-full h-full object-cover">
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <h3 class="text-white font-bold m-2">Blackwork tattoo</h3>
+          <p class="text-white text-sm p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            cupiditate,
+            dolor in
+            labore accusamus id
+            modi laudantium aliquam autem distinctio ipsa?.</p>
+        </div>
+      </div>
+
+      <div class="w-64 h-[400px] mb-6 flex items-center flex-col blue-960">
+        <div class="w-full h-60">
+          <img src="src/assets/img/tudo-s-tattoo.png" alt="card blackwork" class="w-full h-full object-cover">
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <h3 class="text-white font-bold m-2">Tudo sobre tattoo</h3>
+          <p class="text-white text-sm p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            cupiditate,
+            dolor in
+            labore accusamus id
+            modi laudantium aliquam autem distinctio ipsa?.</p>
+        </div>
+      </div>
+
+      <div class="w-64 h-[400px] mb-6 flex items-center flex-col blue-960">
+        <div class="w-full h-60">
+          <img src="src/assets/img/3d.png" alt="card blackwork" class="w-full h-full object-cover">
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <h3 class="text-white font-bold m-2">Realismo 3D tattoo</h3>
+          <p class="text-white text-sm p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+            cupiditate,
+            dolor in
+            labore accusamus id
+            modi laudantium aliquam autem distinctio ipsa?.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="w-5/6 h-96 flex items-center justify-center flex-col">
+      <h3 class="text-white font-bold m-2">Promoções</h3>
+      <div class="w-full h-full bg-pro-gradient rounded-lg">
 
       </div>
     </div>
-
   </section>
 
   <script>
