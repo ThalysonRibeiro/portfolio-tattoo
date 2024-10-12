@@ -22,7 +22,7 @@
   }
 
   .bg-pro-gradient {
-    background: linear-gradient(45deg, #01020f, #01003d, #01020f);
+    background: linear-gradient(45deg, #01020f, #010021, #01020f);
   }
 
   .hover\:text-gradient:hover {
