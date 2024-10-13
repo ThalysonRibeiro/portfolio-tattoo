@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const enviarMensagem = () => {
     const phone = '8487516130';
-    const message = 'Oi! Deixe sua mensagem que respondo assim que puder.';
+    const message = 'Oi! Deixe sua mensagem.';
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
       '_blank'
