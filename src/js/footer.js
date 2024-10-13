@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // };
 
   const enviarMensagem = () => {
-    const phone = '65981278291';
+    const phone = '8487516130';
     const message = 'Oi! Deixe sua mensagem que respondo assim que puder.';
     window.open(
       `https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
