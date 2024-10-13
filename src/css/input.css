@@ -22,7 +22,7 @@
   }
 
   .bg-pro-gradient {
-    background: linear-gradient(45deg, #01020f, #010021, #01020f);
+    background: linear-gradient(-45deg, #f6b000, #ff0000, #ec0099, #9d00b9);
   }
 
   .hover\:text-gradient:hover {
@@ -39,7 +39,7 @@
   }
 
   .btn-expand:hover {
-    width: 220px;
+    width: 200px;
     /* Largura expandida quando hover */
   }
 

@@ -579,6 +579,10 @@ html {
   bottom: 0px;
 }
 
+.bottom-16 {
+  bottom: 4rem;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -780,6 +784,10 @@ html {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -796,6 +804,10 @@ html {
   justify-content: space-evenly;
 }
 
+.justify-stretch {
+  justify-content: stretch;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -804,6 +816,10 @@ html {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.justify-self-auto {
+  justify-self: auto;
 }
 
 .justify-self-start {
@@ -1005,6 +1021,10 @@ html {
   /* Defina a altura da seção com parallax */
 }
 
+.bg-pro-gradient {
+  background: linear-gradient(-45deg, #f6b000, #ff0000, #ec0099, #9d00b9);
+}
+
 /* Expansão do contêiner e do texto */
 
 .btn-expand {
@@ -1013,7 +1033,7 @@ html {
 }
 
 .btn-expand:hover {
-  width: 220px;
+  width: 200px;
   /* Largura expandida quando hover */
 }
 
