@@ -7,18 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const marker = L.marker([-5.75403, -35.26791]).addTo(map);
 
-  // document.addEventListener('click', () => {
-  //   enviarMensagem();
-  // });
-
-  // const enviarMensagem = () => {
-  //   const phone = '65981278291';
-  //   const message = 'Oi! Deixe sua mensagem que respondo assim que puder.';
-  //   window.open(
-  //     `https://wa.me/${phone}?text=${encodeURIComponent(message)}`,
-  //     '_blank'
-  //   );
-  // };
 
   const enviarMensagem = () => {
     const phone = '8487516130';
