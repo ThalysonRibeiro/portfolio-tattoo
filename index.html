@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- API do Google Maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
 </head>
 
@@ -236,22 +238,38 @@
       </div>
 
     </div>
-    <!-- <div class="w-5/6 h-96 flex items-center justify-center flex-col">
-      <h3 class="text-white font-bold m-2">Promoções</h3>
-      <div class="w-full h-full bg-zinc-300 rounded-lg">
 
-      </div>
-    </div> -->
   </section>
 
+  <footer class="w-full h-[500px] flex flex-col justify-center">
+
+    <div class="w-full flex flex-col absolute z-0">
+      <div id="map" class="w-full h-[436px]"></div>
+      <div class="w-full h-16 flex items-center justify-center flex-col text-white blue-960 text-sm z-10">
+        <p>&COPY; 2024 - Todos os direitos reservados.</p>
+        <p>Desenvolvido por <span class="hover:text-blue-700">Rafa.dev</span></p>
+      </div>
+    </div>
+
+    <div
+      class="w-44 h-28 flex justify-around flex-col p-2 m-3 blue-960 text-white text-xs rounded-lg shadow-md relative z-50 md:w-64 md:h-48 md:text-sm md:p-6 md:left-16 lg:left-32">
+      <h3 class="text-center font-bold">STIG TATTOO</h3>
+      <a href="#"><i class="bi bi-whatsapp m-1"></i>(84) 11111-1111</a>
+      <a href="#"><i class="bi bi-instagram m-1"></i>@stigtattoo</a>
+      <a href="#"><i class="bi bi-geo-alt-fill m-1"></i>-5.753761, -35.242811</a>
+    </div>
+
+
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
       effect: "cards",
       grabCursor: true,
     });
   </script>
-
-
+  <script src="src/js/footer.js"></script>
   <script src="src/js/menu.js"></script>
   </body>
 
