@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scrollbar-hide">
 
 <head>
   <meta charset="UTF-8">
@@ -18,35 +18,71 @@
 
 </head>
 
-<body">
+<body>
   <nav class="bg-zinc-950 shadow fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class=""><a href="#inicio"><img src="../assets/img/logo-1.png" alt="logo menu" class="w-16"></a></div>
-      <button id="menu-btn" class="text-white focus:outline-none md:hidden">
+      <div class=""><a href="../../index.html"><img src="../assets/img/logo-1.png" alt="logo menu" class="w-16"></a>
+      </div>
+      <button id="menu-btn" class="text-white focus:outline-none lg:hidden">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
         </svg>
       </button>
-      <div id="menu" class="hidden md:flex space-x-8">
-        <a href="#inicio" class="text-white text-lg hover:text-blue-500">Inicio</a>
-        <a href="#artista" class="text-white text-lg hover:text-blue-500">Artista</a>
-        <a href="#servicos" class="text-white text-lg hover:text-blue-500">Serviços</a>
-        <a href="#contato" class="text-white text-lg hover:text-blue-500">Contato</a>
+      <div id="menu" class="hidden lg:flex space-x-8">
+        <a href="../../index.html" class="text-white text-lg hover:text-blue-500">Inicio</a>
+        <a href="../../index.html#artista" class="text-white text-lg hover:text-blue-500">Artista</a>
+        <a href="../../index.html#servicos" class="text-white text-lg hover:text-blue-500">Serviços</a>
+        <a href="../../index.html#contato" class="text-white text-lg hover:text-blue-500">Contato</a>
+
+        <a href="#sec1" class="text-white text-lg hover:text-blue-500">sec 1</a>
+        <a href="#sec2" class="text-white text-lg hover:text-blue-500">sec 2</a>
+        <a href="#sec3" class="text-white text-lg hover:text-blue-500">sec 3</a>
+        <a href="#sec4" class="text-white text-lg hover:text-blue-500">sec 4</a>
       </div>
     </div>
   </nav>
-  <!-- Menu Mobile -->
-  <div id="mobile-menu" class="md:hidden hidden text-center fixed top-14 left-0 w-full bg-white shadow z-40">
+
+  <!-- Menu tablet -->
+  <div id="mobile-tablet" class="lg:hidden hidden text-center fixed top-14 left-0 w-full h-auto bg-white shadow z-40">
     <div>
-      <a href="#inicio" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
-      <a href="#artista" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
-      <a href="#servicos" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
-      <a href="#contato" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Contato</a>
+      <a href="../../index.html" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
+      <a href="../../index.html#artista"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
+      <a href="../../index.html#servicos"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
+      <a href="../../index.html#contato"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Contato</a>
+      <a class="block px-4 py-2 text-white text-lg bg-zinc-950">
+        <hr>
+      </a>
+      <a href="#sec1" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 1</a>
+      <a href="#sec2" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 2</a>
+      <a href="#sec3" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 3</a>
+      <a href="#sec4" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 4</a>
     </div>
   </div>
 
-  <header id="inicio" class="w-full h-screen flex items-center justify-center">
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class="md:hidden hidden text-center fixed top-14 left-0 w-full h-auto bg-white shadow z-40">
+    <div>
+      <a href="../../index.html" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Inicio</a>
+      <a href="../../index.html#artista"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Artista</a>
+      <a href="../../index.html#servicos"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Serviços</a>
+      <a href="../../index.html#contato"
+        class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700">Contato</a>
+      <a class="block px-4 py-2 text-white text-lg bg-zinc-950">
+        <hr>
+      </a>
+      <a href="#sec1" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 1</a>
+      <a href="#sec2" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 2</a>
+      <a href="#sec3" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 3</a>
+      <a href="#sec4" class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500">sec 4</a>
+    </div>
+  </div>
 
+  <header id="inicio" class="w-full flex items-center justify-center flex-col">
 
     <!-- instagram -->
     <div
@@ -58,7 +94,6 @@
       <a href="https://www.instagram.com/sthenio_tattoo?igsh=MWt6bmdqOHl4andyZw==" target="_blank"
         class="fixed right-0 text-4xl text-white px-2"><i class="bi bi-instagram"></i></a>
     </div>
-
     <!-- whatsapp -->
     <div
       class="btn-expand h-12 flex items-center justify-start bg-green-600 rounded-l-lg z-50 fixed bottom-0 right-0 transition-all duration-500 mb-8">
@@ -71,12 +106,78 @@
         target="_blank" class="fixed right-0 text-4xl text-white px-2"><i class="bi bi-whatsapp"></i></a>
     </div>
 
+    <div class="mt-36 flex items-center justify-center flex-col">
+
+      <div class="w-full h-28 flex flex-col items-center justify-center fixed top-14 ">
+        <h1 class="text-4xl  font-bold">Galeria</h1>
+      </div>
+
+      <div class="mt-12 border border-black m-4 h-auto">
+        <!-- overflow-scroll scrollbar-hide-->
+
+        <div id="sec1" class="container mx-auto px-4 py-8" data-section="sec1">
+          <h2 class="text-2xl font-bold mb-5">sec 1</h2>
+          <div class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9">
+            <img src="../assets/img/blackwork.jpg" alt="Foto 1" class="w-40 h-40 object-cover cursor-pointer">
+            <!-- ... outras imagens ... -->
+          </div>
+        </div>
+
+        <div id="sec2" class="container mx-auto px-4 py-8" data-section="sec2">
+          <h2 class="text-2xl font-bold mb-5">sec 2</h2>
+          <div class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9">
+            <img src="../assets/img/blackwork.jpg" alt="Foto 1" class="w-40 h-40 object-cover cursor-pointer">
+            <!-- ... outras imagens ... -->
+          </div>
+        </div>
+
+        <div id="sec3" class="container mx-auto px-4 py-8" data-section="sec3">
+          <h2 class="text-2xl font-bold mb-5">sec 3</h2>
+          <div class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9">
+            <img src="../assets/img/blackwork.jpg" alt="Foto 1" class="w-40 h-40 object-cover cursor-pointer">
+            <!-- ... outras imagens ... -->
+          </div>
+        </div>
+
+        <div id="sec4" class="container mx-auto px-4 py-8" data-section="sec4">
+          <h2 class="text-2xl font-bold mb-5">sec 4</h2>
+          <div class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9">
+            <img src="../assets/img/blackwork.jpg" alt="Foto 1" class="w-40 h-40 object-cover cursor-pointer">
+            <!-- ... outras imagens ... -->
+          </div>
+        </div>
+
+        <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden">
+          <div class="max-w-4xl mx-auto relative">
+            <img id="modalImage" src="" alt="" class="max-w-full max-h-[90vh] object-contain">
+            <button id="closeModal" class="absolute top-4 right-4 text-white hover:text-gray-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <button id="prevImage"
+              class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button id="nextImage"
+              class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
-
-
-
   <script src="../js/menu.js"></script>
-  </body>
+  <script src="..//js/galeria.js"></script>
+</body>
 
 </html>

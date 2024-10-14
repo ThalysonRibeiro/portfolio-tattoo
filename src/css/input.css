@@ -39,7 +39,7 @@
   }
 
   .btn-expand:hover {
-    width: 200px;
+    width: 190px;
     /* Largura expandida quando hover */
   }
 
@@ -60,5 +60,18 @@
 
   .blue-960 {
     background: #121428;
+  }
+
+  /* Oculta a barra de rolagem para Chrome, Safari e Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Oculta a barra de rolagem para IE, Edge e Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE e Edge */
+    scrollbar-width: none;
+    /* Firefox */
   }
 }
