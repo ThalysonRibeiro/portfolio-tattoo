@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STIG tattoo</title>
 
+    <link
+      rel="shortcut icon"
+      href="../assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
     <link rel="stylesheet" href="../css/output.css" />
 
     <!-- font -->
@@ -20,7 +26,7 @@
     />
   </head>
 
-  <body>
+  <body class="bg-zinc-950">
     <nav class="bg-zinc-950 shadow fixed w-full z-50">
       <div
         class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
@@ -52,18 +58,6 @@
             class="text-white text-lg hover:text-blue-500"
             >Inicio</a
           >
-          <a href="#sec1" class="text-white text-lg hover:text-blue-500"
-            >sec 1</a
-          >
-          <a href="#sec2" class="text-white text-lg hover:text-blue-500"
-            >sec 2</a
-          >
-          <a href="#sec3" class="text-white text-lg hover:text-blue-500"
-            >sec 3</a
-          >
-          <a href="#sec4" class="text-white text-lg hover:text-blue-500"
-            >sec 4</a
-          >
         </div>
       </div>
     </nav>
@@ -79,26 +73,6 @@
           class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700"
           >Inicio</a
         >
-        <a
-          href="#sec1"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 1</a
-        >
-        <a
-          href="#sec2"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 2</a
-        >
-        <a
-          href="#sec3"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 3</a
-        >
-        <a
-          href="#sec4"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 4</a
-        >
       </div>
     </div>
 
@@ -112,26 +86,6 @@
           href="../../index.html"
           class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-700"
           >Inicio</a
-        >
-        <a
-          href="#sec1"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 1</a
-        >
-        <a
-          href="#sec2"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 2</a
-        >
-        <a
-          href="#sec3"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 3</a
-        >
-        <a
-          href="#sec4"
-          class="block px-4 py-2 text-white text-lg bg-zinc-950 hover:bg-blue-500"
-          >sec 4</a
         >
       </div>
     </div>
@@ -183,83 +137,337 @@
         ></a>
       </div>
 
-      <div class="mt-36 flex items-center justify-center flex-col">
-        <div
-          class="w-full h-28 flex flex-col items-center justify-center fixed top-14"
-        >
-          <h1 class="text-4xl font-bold">Galeria</h1>
+      <div class="mt-10 flex items-center justify-center flex-col">
+        <div class="w-full h-28 flex flex-col items-center justify-center">
+          <h1 class="text-4xl font-bold text-white">Galeria</h1>
         </div>
 
-        <div class="mt-12 border border-black m-4 h-auto">
+        <div class="mt-2 m-4 h-auto">
           <!-- overflow-scroll scrollbar-hide-->
 
           <div
-            id="sec1"
+            id="inicio__galeria"
             class="container mx-auto px-4 py-8"
-            data-section="sec1"
+            data-section="inicio__galeria"
           >
-            <h2 class="text-2xl font-bold mb-5">sec 1</h2>
+            <!-- <h2 class="text-2xl font-bold mb-5">sec 4</h2> -->
             <div
               class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9"
             >
               <img
-                src="../assets/img/blackwork.jpg"
+                src="../assets/galeria/1-20.17.01_a934e918.png"
                 alt="Foto 1"
-                class="w-40 h-40 object-cover cursor-pointer"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
               />
-              <!-- ... outras imagens ... -->
-            </div>
-          </div>
-
-          <div
-            id="sec2"
-            class="container mx-auto px-4 py-8"
-            data-section="sec2"
-          >
-            <h2 class="text-2xl font-bold mb-5">sec 2</h2>
-            <div
-              class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9"
-            >
               <img
-                src="../assets/img/blackwork.jpg"
+                src="../assets/galeria/2-20.17.01_825bc9d0.png"
                 alt="Foto 1"
-                class="w-40 h-40 object-cover cursor-pointer"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
               />
-              <!-- ... outras imagens ... -->
-            </div>
-          </div>
-
-          <div
-            id="sec3"
-            class="container mx-auto px-4 py-8"
-            data-section="sec3"
-          >
-            <h2 class="text-2xl font-bold mb-5">sec 3</h2>
-            <div
-              class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9"
-            >
               <img
-                src="../assets/img/blackwork.jpg"
+                src="../assets/galeria/3-20.17.01_0bcddf97.png"
                 alt="Foto 1"
-                class="w-40 h-40 object-cover cursor-pointer"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
               />
-              <!-- ... outras imagens ... -->
-            </div>
-          </div>
-
-          <div
-            id="sec4"
-            class="container mx-auto px-4 py-8"
-            data-section="sec4"
-          >
-            <h2 class="text-2xl font-bold mb-5">sec 4</h2>
-            <div
-              class="gallery grid grid-cols-2 md:grid-cols-5 gap-4 lg:grid-cols-9"
-            >
               <img
-                src="../assets/img/blackwork.jpg"
+                src="../assets/galeria/4-20.17.00_b191c270.png"
                 alt="Foto 1"
-                class="w-40 h-40 object-cover cursor-pointer"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/5-20.17.00_a44a684e.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/6-20.17.00_816a1557.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/7-20.17.00_8b7b152f.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/8-20.17.00_4af7633b.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/9-20.16.59_d0fc5bac.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/10-20.16.59_366040c0.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/11-20.16.59_3128a507.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/12-20.16.59_149f0ffe.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/13-20.16.59_22d678fc.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/14-20.16.58_cff5f08c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/15-20.16.58_920a193a.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/16-20.16.58_00310de2.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/17-20.16.58_9f7f5367.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/18-20.16.58_8c33356c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/19-20.16.58_5c61ad02.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/20-20.16.58_04bffd23.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/21-20.16.57_9fafea45.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/22-20.08.37_f4769d4e.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/23-20.08.37_6112c912.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/24-20.08.36_ce8bf660.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/25-20.08.36_cdefc573.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/26-20.08.36_c84513ea.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/27-20.08.36_49bdef67.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/28-20.08.35_f9683148.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/29-20.08.35_2f695960.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/30-0.00.11_0fe1a285.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/31-20.00.10_bbc3ac5b.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/32-20.00.10_a76410b4.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/33-20.17.01_f0ee375c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/34-20.00.02_1d886158.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/35-20.00.02_88b25f7c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/36-20.00.03_24f440b7.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/37-20.00.03_32588838.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/38-20.00.03_b72d4d2a.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/39-20.00.03_d3fe693c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/40-20.00.04_b8070415.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/41-20.00.04_ec23dd2e.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/42-20.00.04_f92dad06.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/43-20.00.05_3a1255a3.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/44-20.00.05_9ab758ba.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/45-20.00.05_cedfddf4.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/46-20.00.06_465cb2ce.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/47-20.00.06_1929b79d.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/48-20.00.06_c97adac2.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/49-20.00.06_f9a9c153.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/50-20.00.07_33967fbd.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/51-20.00.07_b3931b39.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/52-20.00.07_d1a59f82.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/53-20.00.08_41fcb77c.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/54-20.00.08_73421eea.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/55-0.00.08_d00af832.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/56- 20.00.08_d55c060f.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/57-20.00.09_9f62c5cb.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/58-20.00.09_280dd959.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/59-20.00.09_2775f060.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/60-20.00.10_2a4287ab.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/61-20.00.10_58dbb416.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/62-20.00.10_94e0fcdd.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
+              />
+              <img
+                src="../assets/galeria/63-20.00.10_a0e77f65.png"
+                alt="Foto 1"
+                class="w-40 h-40 object-cover rounded-[5px] cursor-pointer"
               />
               <!-- ... outras imagens ... -->
             </div>
