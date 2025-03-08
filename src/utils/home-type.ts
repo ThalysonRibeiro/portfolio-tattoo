@@ -4,7 +4,7 @@ export interface HomeProps {
     title: string;
     metadata: {
       hero: {
-        banner: {
+        artista_hero: {
           url: string;
           imgix_url: string;
         }
@@ -18,59 +18,50 @@ export interface HomeProps {
         titulo_agenda: string;
         horario_padrao: string;
         fin_semana: string;
+        almoco: string;
       }
-      button_redes: ButtonProps[]
       sobre: {
         imagem_artista: {
           url: string;
           imgix_url: string;
         }
-        descricao: {
-          equipamentos: EquipamentosProps[]
-        }
-      }
+        descricao: string;
+        equipamentos: EquipamentosProps[];
+      };
       carrossel_esquerda: {
-        titulol: string;
-        imagem: ImagemProps[]
-      }
-      carrossel_centro: {
-        titulol: string;
-        imagem: ImagemProps[]
-      }
+        titulo: string;
+        imagem: ImagemProps[];
+      };
       carrossel_direita: {
-        titulol: string;
-        imagem: ImagemProps[]
-      }
-      card_servicos: CardServicosProps[]
+        titulo: string;
+        imagem: ImagemProps[];
+      };
+      card_servicos: CardServicosProps[];
       contato: {
+        menssagem_whats: string;
         titulo_localizacao: string;
         url: string;
         instagram: string;
-        add_numero: AddNumeroProps[]
-      }
-
+        add_numero: AddNumeroProps[];
+      };
     }
   }
 }
 
-interface ButtonProps {
-  tutulo_button: string;
-  url_button: string;
-}
-
-interface EquipamentosProps {
-  titulo: string;
+export interface EquipamentosProps {
+  tintas: string;
   maquinas: string;
 }
 
-interface ImagemProps {
+export interface ImagemProps {
+  titulo_imagem: string;
   imagem_carrossel: {
     url: string;
     imgix_url: string;
   }
 }
 
-interface CardServicosProps {
+export interface CardServicosProps {
   titulo: string;
   descricao: string;
   imagem: {
@@ -79,6 +70,6 @@ interface CardServicosProps {
   }
 }
 
-interface AddNumeroProps {
+export interface AddNumeroProps {
   numero: string;
 }
